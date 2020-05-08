@@ -2,14 +2,14 @@
 
 This script displays crucial information about MySQL in the same way as [mysqlcalculator](www.mysqlcalculator.com)
 
-It is *highly* inspired by [check_mysql_memory_usage.sh](https://gist.github.com/fernandoaleman/5e693838f82a6858c11a534acb0f98d5)
+It is **highly** inspired by [check_mysql_memory_usage.sh](https://gist.github.com/fernandoaleman/5e693838f82a6858c11a534acb0f98d5) :pray:
 
-:warning: WARNINGS :warning:
+:warning: **WARNINGS** :warning:
 
 Be aware of [mysql-maria-memory-calculation-usage-creep](https://superuser.com/questions/1411800/mysql-maria-memory-calculation-usage-creep):
-_"tmp_table_size Should be included in the PER-CONNECTION calculations and not in the BASE_MEMORY calculations.
-The *base-memory* variables are those that are listed above the max_connections
-The *per-connection* variables are listed below"_
+  _"tmp_table_size Should be included in the PER-CONNECTION calculations and not in the BASE_MEMORY calculations.
+  The *base-memory* variables are those that are listed above the max_connections
+  The *per-connection* variables are listed below"_
 
 ```bash
   key_buffer_size
