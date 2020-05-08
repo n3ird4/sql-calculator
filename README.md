@@ -47,3 +47,38 @@ _( Source: http://mysql.rjweb.org/doc.php/limits )_
 
 * Allocating RAM for MySQL - The Short Answer
 _( Source: http://mysql.rjweb.org/doc.php/memory )_
+
+#### How to
+
+* git clone https://github.com/n3ird4/sql-calculator.git on your BDD server
+* chmod +x sql-calculator.sh
+* bash sql-calculator.sh
+
+```bash
+w00t@n3ird4 /space/univers # bash sql-calculator.sh
++---------------------------------+--------------------+
+|                 key_buffer_size |          64.000 MB |
+|                query_cache_size |          96.000 MB |
+|         innodb_buffer_pool_size |        2048.000 MB |
+|          innodb_log_buffer_size |           8.000 MB |
++---------------------------------+--------------------+
+|                    BASE MEMORY$ |        2216.000 MB |
++---------------------------------+--------------------+
+|                sort_buffer_size |           1.000 MB |
+|                read_buffer_size |           1.000 MB |
+|            read_rnd_buffer_size |           4.000 MB |
+|                join_buffer_size |           2.000 MB |
+|                    thread_stack |           0.125 MB |
+|               binlog_cache_size |           0.031 MB |
+|                  tmp_table_size |        2560.000 MB |
++---------------------------------+--------------------+
+|           MEMORY PER CONNECTION |        2568.156 MB |
++---------------------------------+--------------------+
+|            Max_used_connections |                  9 |
+|                 max_connections |                 80 |
++---------------------------------+--------------------+
+|                     TOTAL (MIN) |       25329.406 MB |
+|                     TOTAL (MAX) |      207668.500 MB |
++---------------------------------+--------------------+
+
+```
