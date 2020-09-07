@@ -16,7 +16,6 @@ MEM_TOTAL_MIN=BASE_MEM + MEM_PER_CONN*MAX_USED_CONN
 MEM_TOTAL_MAX=BASE_MEM + MEM_PER_CONN*MAX_CONN
 printf "+---------------------------------+--------------------+\n"
 printf "| %31s | %15.3f MB |\n", "key_buffer_size", VAR["key_buffer_size"]/1048576
-printf "| %31s | %15.3f MB |\n", "key_buffer_size", VAR["key_buffer_size"]
 #
 # query cache is deprecated as of MySQL 5.7.20
 printf "| %31s | %15.3f MB |\n", "query_cache_size", VAR["query_cache_size"]/1048576
