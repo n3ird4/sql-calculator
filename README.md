@@ -1,6 +1,6 @@
 # sql-calculator
 
-This script displays crucial information about MySQL in the same way as [mysqlcalculator](www.mysqlcalculator.com)
+This script displays crucial information about MySQL in the same way as [mysqlcalculator](http://www.mysqlcalculator.com)
 
 It is **highly** inspired by [check_mysql_memory_usage.sh](https://gist.github.com/fernandoaleman/5e693838f82a6858c11a534acb0f98d5) :pray:
 
